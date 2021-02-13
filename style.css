@@ -3,3 +3,123 @@
 	padding:0;
 	box-sizing:border-box;
 }
+body {
+	font-family:'poppins', sans-serif;
+}
+.container {
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+    background-color:#0e3658;
+	color:#ffffff;
+	padding:10px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar {
+	position:fixed;
+	box-shadow: 3px 3px 1px #29abf4;
+}
+
+.header {
+	font-size: 2rem;
+}
+
+ul {
+	padding-right:30px
+}
+
+ul li {
+	display:inline-block;
+	padding:0 15px;
+}
+
+.section-satu {
+	width:100%;
+	min-height:110%;
+	background-image: url(./gambar/bg-utama.svg);
+	background-size: cover;
+	color:white;
+}
+
+.section-dua {
+	width:100%;
+	min-height:100%;
+	background-color: #165081;
+}
+
+.section-tiga {
+	width:100%;
+	min-height:100%;
+	background-color: #29abf4;
+}
+
+.section-empat {
+	width:100%;
+	min-height:100%;
+	background-color: #fc3c3c;
+}
+
+footer {
+	width:100%;
+	background-color:#010102;
+	color:white;
+	padding:10px;
+	min-height: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
