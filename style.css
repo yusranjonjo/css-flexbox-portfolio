@@ -1,12 +1,3 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	/* border: 1px solid white; */
-}
-
-/* responsive */
-@media screen and (min-width: 1200px) {
 	/* 
 => palete warna
 1. warna satu = #0e3658
@@ -17,292 +8,355 @@
 */
 
 
-	body {
-		font-family: 'poppins', sans-serif;
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		/* border: 1px solid white; */
 	}
 
-	.container {
-		width: 100%;
-	}
+	/* responsive */
+	@media screen and (min-width: 1117px) {
 
-	nav {
-		width: 100%;
-		/* background-color: rgba(14, 54, 88, 0.10); */
-		color: #ffffff;
-		padding: 10px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		z-index: 10;
-	}
+		body {
+			font-family: 'poppins', sans-serif;
+		}
 
-	.navbar {
-		position: fixed;
-	}
+		.container {
+			width: 100%;
+		}
 
-	.header {
-		font-size: 2rem;
-		font-weight: bold;
-	}
+		nav {
+			width: 100%;
+			/* background-color: rgba(14, 54, 88, 0.10); */
+			color: #ffffff;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			z-index: 100;
+		}
 
-	ul {
-		padding-right: 30px
-	}
+		.navbar {
+			position: fixed;
+		}
 
-	ul li {
-		display: inline-block;
-		padding: 0 15px;
-	}
+		.header {
+			font-size: 2rem;
+			font-weight: bold;
+		}
 
-	.menu {
-		font-weight: bold;
-		transition: all 1s ease-out;
-	}
+		ul {
+			padding-right: 30px
+		}
 
-	.menu1:hover {
-		border-style: none none solid none;
-		border-bottom-color: #fc3c3c;
-	}
+		ul li {
+			display: inline-block;
+			padding: 0 15px;
+		}
 
+		.menu {
+			font-weight: bold;
+			transition: all 1s ease-out;
+		}
 
-
-	.section-satu {
-		width: 100%;
-		min-height: 100%;
-		/* background-color: #29abf4; */
-		background-image: url(./gambar/bg-utama.png);
-		background-size: cover;
-		color: white;
-		display: flex;
-	}
+		.menu1:hover {
+			border-style: none none solid none;
+			border-bottom-color: #fc3c3c;
+		}
 
 
 
+		.section-satu {
+			width: 100%;
+			min-height: 100%;
+			/* background-color: #29abf4; */
+			background-image: url(./gambar/bg-utama.png);
+			background-size: cover;
+			display: flex;
+		}
 
-	.judul {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 35%;
-		padding: 20px;
-	}
+		.judul {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 35%;
+			padding: 20px;
+		}
 
-	.paragraf-satu {
-		text-align: center;
-	}
+		.foto-profil {
+			display: none;
+		}
 
-	.span-satu {
-		display: inline-block;
-		margin-top: -5px;
-	}
+		.paragraf-satu {
+			text-align: center;
+			font-size: 4rem;
 
-	.paragraf-satu,
-	.span-satu {
-		font-size: 4rem;
-		font-weight: bold;
-		text-shadow: 7px 5px 1px #fc3c3c;
-	}
+		}
 
-	.paragraf-dua {
-		font-size: 1.5rem;
-		text-shadow: 1px 1px 1px #fc3c3c;
-	}
+		.span-satu {
+			display: inline-block;
+			margin-top: -5px;
+			font-size: 4rem;
+		}
 
-	.btn {
-		width: 200px;
-		padding: 10px;
-		text-align: center;
-		text-decoration: none;
-		background-color: #fc3c3c;
-		color: white;
-		font-size: large;
-		border-radius: 20px;
-		border: none;
-		margin: 20px auto;
-		transition: all 0.2s ease-in-out;
-	}
+		.paragraf-satu,
+		.span-satu {
+			color: #ffffff;
+			font-size: 4rem;
+			font-weight: bold;
+			text-shadow: 7px 5px 1px #fc3c3c;
+		}
 
-	.btn:hover {
-		color: rgba(255, 255, 255, 0.8);
-		background-color: rgba(252, 60, 60, 0.8);
-		transform: scale(1);
-		border: none;
-	}
+		.paragraf-dua {
+			font-size: 1.3rem;
+			font-weight: bold;
+			color: #ffffff;
+			text-shadow: 1px 1px 1px #ffffff;
+		}
 
-	.sosmed {
-		margin-top: 40%;
-		margin-left: 50px;
-	}
+		.btn {
+			width: 200px;
+			padding: 10px;
+			text-align: center;
+			text-decoration: none;
+			background-color: #fc3c3c;
+			color: white;
+			font-size: large;
+			border-radius: 20px;
+			border: none;
+			margin: 20px auto;
+			transition: all 0.2s ease-in-out;
+		}
 
+		.btn:hover {
+			color: rgba(255, 255, 255, 0.8);
+			background-color: rgba(252, 60, 60, 0.8);
+			transform: scale(1);
+			border: none;
+		}
 
-
-	.list-sosmed {
-		display: flex;
-	}
-
-	.list-sosmed a {
-		text-decoration: none;
-		list-style: none;
-		color: white;
-	}
-
-
-	.fab {
-		font-size: 3em;
-		transition: all 0.3s ease-in-out;
-	}
-
-	.fab:hover {
-		color: #fc3c3c;
-		transform: scale(1.1);
-		text-shadow: 2px 2px 1px #ffffff;
-	}
+		.sosmed {
+			margin-top: 40%;
+			margin-left: 50px;
+		}
 
 
 
-	.section-dua {
-		width: 100%;
-		min-height: 100%;
-		background-color: #165081;
-	}
+		.list-sosmed {
+			display: flex;
+		}
 
-	.section-tiga {
-		width: 100%;
-		min-height: 100%;
-		background-color: #29abf4;
-	}
-
-	.section-empat {
-		width: 100%;
-		min-height: 100%;
-		background-color: #fc3c3c;
-	}
-
-	footer {
-		width: 100%;
-		background-color: #010102;
-		color: white;
-		padding: 10px;
-		min-height: 30%;
-	}
+		.list-sosmed a {
+			text-decoration: none;
+			list-style: none;
+			color: white;
+		}
 
 
-}
+		.fab {
+			font-size: 3em;
+			transition: all 0.3s ease-in-out;
+		}
 
-@media screen and (min-width: 500px) {
-	body {
-		font-family: 'poppins', sans-serif;
-		background-color: #29abf4;
-	}
-
-	.container {
-		width: 100%;
-	}
+		.fab:hover {
+			color: #fc3c3c;
+			transform: scale(1.1);
+			text-shadow: 2px 2px 1px #ffffff;
+		}
 
 
-	.header {
-		font-size: 2.5rem;
-		font-weight: bold;
-		text-align: center;
-		color: #ffffff;
-		padding: 5px;
-	}
+		/* Section dua About Me */
+		.section-dua {
+			border: 2px solid white;
+			width: 100%;
+			min-height: 100%;
+			background-color: #165081;
+			padding: 40px;
+		}
 
-	.menu {
-		display: none;
-	}
+		.heading-dua {
+			color: #ffffff;
+			font-size: 2rem;
+			text-align: center;
+			padding: 10px;
+		}
 
-	.section-satu {
-		background-color: #29abf4;
-		min-height: 100%;
-	}
+		.about {
+			display: flex;
+			flex-direction: column;
+		}
 
-	.judul {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+		.section-tiga {
+			width: 100%;
+			min-height: 100%;
+			background-color: #29abf4;
+		}
 
-	.foto-profil {
-		width: 200px;
-		height: 200px;
-		margin-top: 35px;
-		background-image: url(./gambar/bg-utama.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: -50px 0px;
-		border: 3px solid #fc3c3c;
-		border-radius: 50%;
-	}
+		.section-empat {
+			width: 100%;
+			min-height: 100%;
+			background-color: #fc3c3c;
+		}
 
-	.foto-profil:hover {
-		opacity: 0.2;
+		footer {
+			width: 100%;
+			background-color: #010102;
+			color: white;
+			padding: 10px;
+			min-height: 30%;
+		}
+
 
 	}
 
-	.paragraf-satu {
-		text-align: center;
-		margin-top: 20px;
-		font-size: 2.7rem;
-		font-weight: bold;
-		color: #ffffff;
-		text-shadow: 7px 5px 1px #fc3c3c;
+
+
+	/* ukuran handphone */
+	@media screen and (min-width: 500px) and (max-width: 1116px) {
+		body {
+			font-family: 'poppins', sans-serif;
+			background-color: #29abf4;
+		}
+
+		.container {
+			width: 100%;
+		}
+
+
+		.header {
+			font-size: 2.5rem;
+			font-weight: bold;
+			text-align: center;
+			color: #ffffff;
+			padding: 5px;
+		}
+
+		.menu {
+			display: none;
+		}
+
+		/* untuk section satu */
+		.section-satu {
+			background-color: #29abf4;
+			min-height: 100%;
+		}
+
+		.judul {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.foto-profil {
+			width: 200px;
+			height: 200px;
+			margin-top: 35px;
+			background-image: url(./gambar/bg-utama.svg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: -50px 0px;
+			border: 3px solid #fc3c3c;
+			border-radius: 50%;
+		}
+
+		.foto-profil:hover {
+			opacity: 0.2;
+
+		}
+
+		.paragraf-satu {
+			color: #ffffff;
+			font-size: 4rem;
+			font-weight: bold;
+			text-shadow: 7px 5px 1px #fc3c3c;
+			text-align: center;
+
+		}
+
+		.span-satu {
+			display: block;
+		}
+
+
+
+		.paragraf-dua {
+			font-size: 1.3rem;
+			font-weight: bold;
+			color: #ffffff;
+			text-shadow: 1px 1px 1px #fc3c3c;
+		}
+
+		.btn {
+			background-color: #fc3c3c;
+			border-radius: 30px;
+			padding: 8px 20px;
+			text-decoration: none;
+			color: #ffffff;
+			font-size: 1.1rem;
+			margin-top: 30px;
+			transition: all 0.3s ease-in;
+		}
+
+		.btn:hover {
+			color: rgba(255, 255, 255, 0.8);
+			background: linear-gradient(to right, #fc3c3c, #EC6F66);
+
+			transform: scale(1.1);
+			border: none;
+		}
+
+		.list-sosmed {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin: 30px 0px;
+		}
+
+		.list-sosmed li {
+			list-style: none;
+		}
+
+		.list-sosmed li .fab {
+			font-size: 3rem;
+			padding: 10px;
+			color: #ffffff;
+			transition: all 0.3s ease-in;
+		}
+
+		.list-sosmed li .fab:hover {
+			color: #fc3c3c;
+			transform: scale(1.2);
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		/* Untuk Section dua */
+
+		.section-dua {
+			width: 100%;
+			background-color: #0e3658;
+			padding: 150px;
+		}
+
+		.section-tiga {
+			width: 100%;
+			background-color: #fc3c3c;
+			padding: 150px;
+		}
+
+		.section-empat {
+			width: 100%;
+			background-color: #165081;
+			padding: 150px;
+		}
+
+		footer {
+			width: 100%;
+			background-color: rgb(17, 15, 15);
+			padding: 50px;
+		}
 
 	}
-
-	.span-satu {
-		display: block;
-	}
-
-	.paragraf-dua {
-		font-size: 1.3rem;
-		font-weight: bold;
-		color: #165081;
-	}
-
-	.btn {
-		background-color: #fc3c3c;
-		border-radius: 30px;
-		padding: 8px 20px;
-		text-decoration: none;
-		color: #ffffff;
-		font-size: 1.1rem;
-		margin-top: 30px;
-		transition: all 0.3s ease-in;
-	}
-
-	.btn:hover {
-		color: rgba(255, 255, 255, 0.8);
-		background: linear-gradient(to right, #fc3c3c, #EC6F66);
-
-		transform: scale(1.1);
-		border: none;
-	}
-
-	.list-sosmed {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		margin: 30px 0px;
-	}
-
-	.list-sosmed li {
-		list-style: none;
-	}
-
-	.list-sosmed li .fab {
-		font-size: 3rem;
-		padding: 10px;
-		color: #ffffff;
-		transition: all 0.3s ease-in;
-	}
-
-	.list-sosmed li .fab:hover {
-		color: #fc3c3c;
-		transform: scale(1.2);
-		text-shadow: 2px 2px 1px #ffffff;
-	}
-}
