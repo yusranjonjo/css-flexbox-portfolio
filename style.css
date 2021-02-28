@@ -71,7 +71,6 @@
 			text-shadow: 2px 2px 1px #fc3c3c;
 		}
 
-		.Untuk_section-satu-desktop {}
 
 		.section-satu {
 			width: 100%;
@@ -172,7 +171,6 @@
 			text-shadow: 2px 2px 1px #ffffff;
 		}
 
-		.untuk-section-dua-desktop {}
 
 		/* Section dua About Me */
 		.section-dua {
@@ -309,7 +307,6 @@
 			z-index: 11;
 		}
 
-		.untuk-section-tiga-desktop {}
 
 		/* Section Tiga */
 		.section-tiga {
@@ -393,8 +390,6 @@
 			text-align: justify;
 		}
 
-
-
 		footer {
 			width: 100%;
 			background-color: #010102;
@@ -407,8 +402,6 @@
 			align-items: center;
 		}
 
-		.copyright {}
-
 
 	}
 
@@ -416,34 +409,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	.untuk-mobile {}
 
 	/* ukuran handphone */
 	@media screen and (min-width: 400px) and (max-width: 1116px) {
@@ -565,8 +530,6 @@
 			text-shadow: 2px 2px 1px #ffffff;
 		}
 
-
-		.untuk-section-dua-desktop {}
 
 		/* Section dua About Me */
 		.section-dua {
