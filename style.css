@@ -55,15 +55,12 @@
 			padding: 0 15px;
 		}
 
-		.menu {
+		.menu a {
 			font-weight: bold;
-			transition: all 1s ease-out;
+			color: #ffffff;
+			text-decoration: none;
 		}
 
-		.menu1:hover {
-			border-style: none none solid none;
-			border-bottom-color: #fc3c3c;
-		}
 
 		.Untuk_section-satu-desktop {}
 
