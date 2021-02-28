@@ -401,31 +401,52 @@
 			color: white;
 			padding: 10px;
 			min-height: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
+
+		.copyright {}
 
 
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	.untuk-mobile {}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	/* ukuran handphone */
-	@media screen and (min-width: 500px) and (max-width: 1116px) {
+	@media screen and (min-width: 400px) and (max-width: 1116px) {
 		body {
 			font-family: 'poppins', sans-serif;
 			background-color: #29abf4;
@@ -554,9 +575,10 @@
 			background-color: #0e3658;
 		}
 
-		.heading-dua {
+		.heading-dua,
+		.heading-tiga {
 			color: #ffffff;
-			text-shadow: 2px 2px 1px #fc3c3c;
+			text-shadow: 2px 2px 1px #00a2ff;
 			font-size: 2rem;
 			text-align: center;
 			padding-top: 40px;
@@ -573,7 +595,7 @@
 			flex-direction: column;
 			text-align: justify;
 			color: #ffffff;
-			padding: 20px;
+			padding: 40px;
 		}
 
 		.paragraf-tiga {
@@ -688,20 +710,92 @@
 
 		.section-tiga {
 			width: 100%;
+			min-height: 100%;
 			background-color: #fc3c3c;
-			padding: 150px;
 		}
 
-		.section-empat {
+		.services {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.daftar-services {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			width: 100%;
-			background-color: #165081;
-			padding: 150px;
+			margin-top: 50px;
+			border-bottom: 3px solid #0e3658;
+		}
+
+		.web-design,
+		.web-programming,
+		.ui-ux {
+			margin-bottom: 100px;
+		}
+
+
+		.daftar-services i {
+			font-size: 7rem;
+			color: #0e3658;
+		}
+
+		.daftar-services i:hover {
+			color: #00a2ff;
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.wd,
+		.wp,
+		.i-x {
+			position: absolute;
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #0e3658;
+		}
+
+		.wd {
+			top: 18%;
+		}
+
+		.wp {
+			top: 51%;
+		}
+
+		.i-x {
+			top: 85%;
+		}
+
+		.ket-services {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #0e3658;
+			padding: 50px;
+		}
+
+		.ket-services p {
+			color: #29abf4;
+			font-size: 1.1rem;
+			text-align: end;
+
 		}
 
 		footer {
 			width: 100%;
-			background-color: rgb(17, 15, 15);
-			padding: 50px;
+			background-color: #010102;
+			color: white;
+			padding: 10px;
+			min-height: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
 
 	}
