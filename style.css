@@ -458,6 +458,7 @@
 		}
 
 
+		.untuk-section-dua-desktop {}
 
 		/* Section dua About Me */
 		.section-dua {
@@ -496,6 +497,8 @@
 		.paragraf-empat {
 			color: #00a2ff;
 			font-size: 1.1rem;
+			text-indent: 30px;
+			text-align: end;
 		}
 
 		.skill-saya {
@@ -507,7 +510,13 @@
 			align-items: center;
 		}
 
-		/* .heading-skill {} */
+		.heading-skill {
+			font-size: 1.5em;
+			color: #ffffff;
+			margin-left: 28px;
+			text-shadow: 2px 2px 1px #fc3c3c;
+			text-decoration: underline;
+		}
 
 		.daftar-skill {
 			display: flex;
