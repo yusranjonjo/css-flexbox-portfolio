@@ -65,7 +65,7 @@
 			border-bottom-color: #fc3c3c;
 		}
 
-
+		.Untuk_section-satu-desktop {}
 
 		.section-satu {
 			width: 100%;
@@ -166,10 +166,10 @@
 			text-shadow: 2px 2px 1px #ffffff;
 		}
 
+		.untuk-section-dua-desktop {}
 
 		/* Section dua About Me */
 		.section-dua {
-			border: 2px solid white;
 			width: 100%;
 			min-height: 100%;
 			background-color: #29abf4;
@@ -193,7 +193,6 @@
 			display: flex;
 			flex-direction: column;
 			width: 40%;
-			text-align: justify;
 			padding-top: 30px;
 			margin-right: 60px;
 		}
@@ -206,6 +205,8 @@
 		.paragraf-empat {
 			color: #0e3658;
 			font-size: 1.1em;
+			text-indent: 30px;
+			text-align: end;
 		}
 
 		.skill-saya {
@@ -218,8 +219,10 @@
 
 		.heading-skill {
 			font-size: 1.5em;
-			text-align: center;
 			color: #ffffff;
+			margin-left: 28px;
+			text-shadow: 2px 2px 1px #fc3c3c;
+			text-decoration: underline;
 		}
 
 		.daftar-skill {
@@ -230,6 +233,7 @@
 		.daftar-skill li {
 			font-size: 3rem;
 			padding: 20px;
+			list-style: none;
 		}
 
 		.fa-html5 {
@@ -269,8 +273,13 @@
 			font-weight: bold;
 			position: absolute;
 			left: 27%;
-			top: 15%;
+			top: 20%;
 			z-index: 11;
+			transition: linear 4s ease-in;
+		}
+
+		.skill-html:hover {
+			width: 400px;
 		}
 
 		.skill-css {
@@ -283,7 +292,7 @@
 			font-weight: bold;
 			position: absolute;
 			left: 27%;
-			top: 45%;
+			top: 50%;
 			z-index: 11;
 		}
 
@@ -297,7 +306,7 @@
 			font-weight: bold;
 			position: absolute;
 			left: 27%;
-			top: 77%;
+			top: 78%;
 			z-index: 11;
 		}
 
@@ -326,7 +335,7 @@
 
 	}
 
-
+	.untuk-mobile {}
 
 	/* ukuran handphone */
 	@media screen and (min-width: 500px) and (max-width: 1116px) {
@@ -448,13 +457,138 @@
 			text-shadow: 2px 2px 1px #ffffff;
 		}
 
-		/* Untuk Section dua */
 
+
+		/* Section dua About Me */
 		.section-dua {
 			width: 100%;
+			min-height: 100%;
 			background-color: #0e3658;
-			padding: 150px;
 		}
+
+		.heading-dua {
+			color: #ffffff;
+			text-shadow: 2px 2px 1px #fc3c3c;
+			font-size: 2rem;
+			text-align: center;
+			padding-top: 40px;
+		}
+
+		.about {
+			display: flex;
+			flex-direction: column-reverse;
+			padding: 20px;
+		}
+
+		.dekskripsi-dua {
+			display: flex;
+			flex-direction: column;
+			text-align: justify;
+			color: #ffffff;
+			padding: 20px;
+		}
+
+		.paragraf-tiga {
+			margin: 20px 0px;
+		}
+
+		.paragraf-tiga,
+		.paragraf-empat {
+			color: #00a2ff;
+			font-size: 1.1rem;
+		}
+
+		.skill-saya {
+			position: relative;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* .heading-skill {} */
+
+		.daftar-skill {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.daftar-skill li {
+			padding: 30px 0px;
+			font-size: 6rem;
+			list-style: none;
+		}
+
+		.fa-html5 {
+			color: #EC6F66;
+		}
+
+		.fa-html5:hover {
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.fa-css3-alt {
+			color: #00a2ff;
+		}
+
+		.fa-css3-alt:hover {
+			color: #00a2ff;
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.fa-js {
+			color: rgba(255, 255, 0, 0.8);
+			border-radius: 20px;
+		}
+
+		.fa-js:hover {
+			color: yellow;
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.skill-html {
+			width: 80%;
+			padding: 2px;
+			border-radius: 20px;
+			background-color: #fc3c3c;
+			color: #ffffff;
+			text-align: center;
+			font-weight: bold;
+			position: absolute;
+			left: 10%;
+			top: 30%;
+			z-index: 11;
+		}
+
+		.skill-css {
+			width: 80%;
+			padding: 2px;
+			border-radius: 20px;
+			background-color: #29abf4;
+			color: #ffffff;
+			text-align: center;
+			font-weight: bold;
+			position: absolute;
+			top: 65%;
+			z-index: 11;
+		}
+
+		.skill-js {
+			width: 80%;
+			padding: 2px;
+			border-radius: 20px;
+			background-color: rgba(255, 255, 0, 0.8);
+			color: #ffffff;
+			text-align: center;
+			font-weight: bold;
+			position: absolute;
+			top: 95%;
+			z-index: 11;
+		}
+
+		/* Section Tiga */
 
 		.section-tiga {
 			width: 100%;
