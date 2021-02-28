@@ -15,6 +15,7 @@
 		/* border: 1px solid white; */
 	}
 
+
 	/* responsive */
 	@media screen and (min-width: 1117px) {
 
@@ -61,6 +62,14 @@
 			text-decoration: none;
 		}
 
+		.heading-dua,
+		.heading-tiga {
+			color: #ffffff;
+			font-size: 2rem;
+			text-align: center;
+			padding: 10px;
+			text-shadow: 2px 2px 1px #fc3c3c;
+		}
 
 		.Untuk_section-satu-desktop {}
 
@@ -173,13 +182,6 @@
 			padding: 40px;
 		}
 
-		.heading-dua {
-			color: #ffffff;
-			font-size: 2rem;
-			text-align: center;
-			padding: 10px;
-			text-shadow: 2px 2px 1px #fc3c3c;
-		}
 
 		.about {
 			display: flex;
@@ -307,19 +309,91 @@
 			z-index: 11;
 		}
 
+		.untuk-section-tiga-desktop {}
 
 		/* Section Tiga */
 		.section-tiga {
 			width: 100%;
 			min-height: 100%;
 			background-color: #165081;
+			border-bottom: 5px solid #fc3c3c;
 		}
 
-		.section-empat {
-			width: 100%;
-			min-height: 100%;
-			background-color: #fc3c3c;
+		.services {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
+
+		.daftar-services {
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+
+		.web-design,
+		.web-programming,
+		.ui-ux {
+			margin: 50px 50px 120px 120px;
+		}
+
+
+		.daftar-services i {
+			font-size: 13em;
+			color: #fc3c3c;
+			transition: all 0.3s ease-in-out;
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.daftar-services i:hover {
+			color: #00a2ff;
+			transform: scale(1.1);
+			text-shadow: 2px 2px 1px #ffffff;
+		}
+
+		.wd,
+		.wp,
+		.i-x {
+			position: absolute;
+			color: #00a2ff;
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+
+		.wd {
+			left: 12%;
+			top: 80%;
+		}
+
+		.wp {
+			left: 45%;
+			top: 80%;
+		}
+
+		.i-x {
+			left: 82%;
+			top: 80%;
+		}
+
+		.ket-services {
+			display: flex;
+			flex-direction: column;
+			color: #00a2ff;
+			font-size: 1.1rem;
+			font-weight: bold;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.ket-services p {
+			margin: 10px 100px;
+			text-align: justify;
+		}
+
+
 
 		footer {
 			width: 100%;
@@ -333,6 +407,22 @@
 	}
 
 	.untuk-mobile {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/* ukuran handphone */
 	@media screen and (min-width: 500px) and (max-width: 1116px) {
