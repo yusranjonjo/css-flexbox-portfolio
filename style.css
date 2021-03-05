@@ -451,7 +451,7 @@
 		}
 
 		.header {
-			font-size: 2rem;
+			font-size: 3rem;
 			font-weight: bold;
 			text-align: center;
 			color: #ffffff;
@@ -461,7 +461,7 @@
 
 		.bars-menu .fas {
 			color: #ffffff;
-			font-size: 2rem;
+			font-size: 4rem;
 			cursor: pointer;
 			z-index: 9990;
 
