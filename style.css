@@ -420,10 +420,8 @@
 
 
 
-
-
 	/* ukuran tablet */
-	@media screen and (min-width: 769px) and (max-width: 1116px) {
+	@media only screen and (min-device-width: 769px) and (max-device-width: 1116px) and (-webkit-min-device-pixel-ratio: 2) {
 		* {
 			margin: 0;
 			padding: 0;
@@ -858,8 +856,11 @@
 
 
 
+
+
+
 	/* ukuran handphone */
-	@media screen and (min-width: 360px) and (max-width: 768px) {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 		* {
 			margin: 0;
 			padding: 0;
@@ -1288,5 +1289,6 @@
 			justify-content: center;
 			align-items: center;
 		}
+
 
 	}
