@@ -420,8 +420,10 @@
 
 
 
+
+
 	/* ukuran tablet */
-	@media only screen and (min-device-width: 769px) and (max-device-width: 1116px) and (-webkit-min-device-pixel-ratio: 2) {
+	@media screen and (min-width: 769px) and (max-width: 1116px) {
 		* {
 			margin: 0;
 			padding: 0;
@@ -456,7 +458,6 @@
 
 		.section-satu {
 			width: 100%;
-			min-height: 100%;
 			background-color: #29abf4;
 			z-index: 9999;
 		}
@@ -527,7 +528,6 @@
 		/* untuk section satu */
 		.section-satu {
 			background-color: #29abf4;
-			min-height: 100%;
 			margin-top: 100px;
 		}
 
@@ -625,7 +625,6 @@
 		/* Section dua About Me */
 		.section-dua {
 			width: 100%;
-			min-height: 100%;
 			background-color: #0e3658;
 		}
 
@@ -764,7 +763,6 @@
 
 		.section-tiga {
 			width: 100%;
-			min-height: 100%;
 			background-color: #fc3c3c;
 		}
 
@@ -856,11 +854,8 @@
 
 
 
-
-
-
 	/* ukuran handphone */
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	@media screen and (min-width: 360px) and (max-width: 768px) {
 		* {
 			margin: 0;
 			padding: 0;
@@ -894,7 +889,6 @@
 
 		.section-satu {
 			width: 100%;
-			min-height: 100%;
 			background-color: #29abf4;
 			z-index: 9999;
 		}
@@ -965,7 +959,6 @@
 		/* untuk section satu */
 		.section-satu {
 			background-color: #29abf4;
-			min-height: 100%;
 			margin-top: 100px;
 		}
 
@@ -1063,7 +1056,6 @@
 		/* Section dua About Me */
 		.section-dua {
 			width: 100%;
-			min-height: 100%;
 			background-color: #0e3658;
 		}
 
@@ -1202,7 +1194,6 @@
 
 		.section-tiga {
 			width: 100%;
-			min-height: 100%;
 			background-color: #fc3c3c;
 		}
 
@@ -1289,6 +1280,5 @@
 			justify-content: center;
 			align-items: center;
 		}
-
 
 	}
