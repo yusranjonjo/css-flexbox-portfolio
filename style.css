@@ -459,6 +459,7 @@
 			width: 100%;
 			min-height: 100%;
 			background-color: #29abf4;
+			z-index: 9999;
 		}
 
 		.header {
@@ -893,6 +894,7 @@
 			width: 100%;
 			min-height: 100%;
 			background-color: #29abf4;
+			z-index: 9999;
 		}
 
 		.header {
